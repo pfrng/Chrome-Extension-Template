@@ -1,0 +1,38 @@
+{
+    "manifest_version": 2,
+    "name": "Dummy Extension name",
+    "version": "1.0.2",
+    "description": "dummy extension header",
+    "browser_action": {
+        "default_icon": {
+            "24": "images/icon.png"
+        },
+        "default_title": "Dummy Extension Title"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+               "js/mainCs.js"
+            ],
+            "css": [
+                "style/mainStyle.css"
+            ]
+        }
+    ],
+    "background": {
+         "scripts": ["js/background.js"]
+      },
+    "permissions": [
+		"background",
+        "storage",
+        "tabs",
+		"activeTab",
+        "webRequest",
+        "identity",
+        "webRequestBlocking",
+        "<all_urls>"
+    ]
+}

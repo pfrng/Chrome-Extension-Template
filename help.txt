@@ -1,0 +1,14 @@
+Chrome Extension Essentials by pfrng.com
+
+How to use this template
+http://www.pfrng.com/chrome-extension-template-dummy-chrome-extension
+
+For detailed instruction and tons of example 
+http://www.pfrng.com/category/chrome-extension/
+
+How to declare manifest file
+https://developer.chrome.com/extensions/manifest 
+
+
+Permission available in chrome extension
+https://developer.chrome.com/extensions/declare_permissions
